@@ -1,0 +1,19 @@
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.active{
+    border-radius: 10px;
+    padding-left: 10px !important;
+}
+.active:hover{
+    background-color: white;
+    color: red !important;
+}
+.dropdown-item{
+    color: white!important;
+}
+.dropdown-item:hover{
+    color: red !important;
+    background-color: white !important;
+}
