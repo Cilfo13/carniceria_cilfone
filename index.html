@@ -14,7 +14,7 @@
     
     <!-- NavBar -->
     <div class="container_nav">
-        <nav style="background-color: red;" class="navbar navbar-expand-lg navbar-dark">
+        <nav style="background-color: #6B0504;" class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img class="logo" src="./src/carniceriaLogo.png" alt="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,26 +26,63 @@
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">¿Quienes somos?</a>
+                    <a class="nav-link active" href="#">¿Quiénes somos?</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Productos y precios
                     </a>
-                    <ul class="dropdown-menu" style="background-color: red;" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" style="background-color: red;" href="#">Carne</a></li>
-                      <li><a class="dropdown-item" style="background-color: red;" href="#">Pollo</a></li>
+                    <ul class="dropdown-menu" style="background-color: #6B0504;" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" style="background-color: #6B0504;" href="#">Carnes vacunas</a></li>
+                      <li><a class="dropdown-item" style="background-color: #6B0504;" href="#">Pollo</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Ofertas</a>
+                    <a class="nav-link ofertas" href="#" tabindex="-1" style="letter-spacing: 1px;"" aria-disabled="true"><strong >Ofertas</strong></a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </div>
-    
     <!-- /NavBar -->
+    <!-- Titulo-->
+    <div class="container container_titulo">
+      <h1><strong class="row justify-content-center">CARNICERIA CILFONE</strong></h1>
+    </div>
+    <!-- Carousel -->
+    <div class="container_carousel row">
+      <div id="carouselExampleCaptions" class="carousel slide container-fluid" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./src/carousel1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./src/carousel2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./src/carousel3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </Carousel> -->
 </body>
 </html>
