@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 body{
     background-color: #00417A !important;
 }
@@ -36,7 +37,17 @@ body{
     background: #00417A;
 }
 .container_titulo{
-    color: white !important;
+    margin-top: 40px;
+    color: #d3d4d9 !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+.container_titulo p{
+    font-size: 1.5rem !important;
+}
+.container_both{
+    padding-top: 10px;
+    border-radius: 30px;
+    border: #d3d4d9 5px solid;
 }
 
 .carousel-item{
@@ -48,4 +59,9 @@ body{
     height: 300px !important;
     object-fit: cover !important;
 }
-
+.accordion{
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+    padding-bottom: 70px !important;
+    padding-top: 10px !important;
+}
